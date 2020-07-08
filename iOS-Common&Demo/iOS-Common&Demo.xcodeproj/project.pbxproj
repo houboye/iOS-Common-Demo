@@ -99,6 +99,8 @@
 		A21D48B324B46F370085133B /* B3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A21D485F24B46F370085133B /* B3@2x.png */; };
 		A21D48B424B46F370085133B /* B3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A21D486024B46F370085133B /* B3@3x.png */; };
 		A21D48B524B46F370085133B /* B1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A21D486124B46F370085133B /* B1@2x.png */; };
+		A21D48BE24B5626C0085133B /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D48BD24B5626C0085133B /* UIDevice+Extension.swift */; };
+		A21D48C024B562E40085133B /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D48BF24B562E40085133B /* UIApplication+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -268,6 +270,8 @@
 		A21D486024B46F370085133B /* B3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B3@3x.png"; sourceTree = "<group>"; };
 		A21D486124B46F370085133B /* B1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B1@2x.png"; sourceTree = "<group>"; };
 		A21D48B924B470830085133B /* iOS-Common-Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-Common-Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		A21D48BD24B5626C0085133B /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		A21D48BF24B562E40085133B /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -491,9 +495,9 @@
 		A21D480424B46F370085133B /* IJKGLView */ = {
 			isa = PBXGroup;
 			children = (
+				A21D483224B46F370085133B /* BYGLView.h */,
 				A21D480524B46F370085133B /* BYGLView.m */,
 				A21D480624B46F370085133B /* ijksdl */,
-				A21D483224B46F370085133B /* BYGLView.h */,
 			);
 			path = IJKGLView;
 			sourceTree = "<group>";
@@ -600,6 +604,7 @@
 		A21D483B24B46F370085133B /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				A21D48BC24B562540085133B /* Extension */,
 				A21D483C24B46F370085133B /* Demo */,
 				A21D484324B46F370085133B /* Tools */,
 				A21D484924B46F370085133B /* Service */,
@@ -633,7 +638,6 @@
 		A21D484324B46F370085133B /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				A21D484424B46F370085133B /* Optional+Extension.swift */,
 				A21D484524B46F370085133B /* NavigationAnimator.swift */,
 				A21D484624B46F370085133B /* NavigationHandler.swift */,
 				A21D484724B46F370085133B /* TimerHolder.swift */,
@@ -688,6 +692,16 @@
 				A21D486124B46F370085133B /* B1@2x.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		A21D48BC24B562540085133B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A21D484424B46F370085133B /* Optional+Extension.swift */,
+				A21D48BD24B5626C0085133B /* UIDevice+Extension.swift */,
+				A21D48BF24B562E40085133B /* UIApplication+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -868,6 +882,7 @@
 				A21D48A424B46F370085133B /* function.swift in Sources */,
 				A21D486F24B46F370085133B /* UIView+Swizzling.m in Sources */,
 				A21D488B24B46F370085133B /* color.c in Sources */,
+				A21D48BE24B5626C0085133B /* UIDevice+Extension.swift in Sources */,
 				A21D488A24B46F370085133B /* rgb.fsh.c in Sources */,
 				A21D487824B46F370085133B /* NSDictionary+JSON.m in Sources */,
 				A21D489A24B46F370085133B /* FourthViewController.swift in Sources */,
@@ -895,6 +910,7 @@
 				A21D489B24B46F370085133B /* SecondViewController.swift in Sources */,
 				A21D489D24B46F370085133B /* NavigationAnimator.swift in Sources */,
 				A21D489E24B46F370085133B /* NavigationHandler.swift in Sources */,
+				A21D48C024B562E40085133B /* UIApplication+Extension.swift in Sources */,
 				A21D48A224B46F370085133B /* ApplicationEventSubscriberProtocol.swift in Sources */,
 				A21D488E24B46F370085133B /* ijksdl_stdinc.c in Sources */,
 				A21D487524B46F370085133B /* UIScrollView+Direction.m in Sources */,
